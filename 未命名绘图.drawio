@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T03:34:48.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.0" etag="cLC-WJyASHsI3OLxAlIt" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T06:58:09.605Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zsv1EbIafIRHuaIJ9b1b" version="24.3.0" type="github">
   <diagram name="第 1 页" id="v8mL-R38DfBbgqLZ-8sR">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HUhTeKomCQSXCw2tcIWB-2" target="HUhTeKomCQSXCw2tcIWB-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-5" value="input email" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HUhTeKomCQSXCw2tcIWB-4">
+          <mxGeometry x="-0.1312" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-2" value="user" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-10" value="user" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="HUhTeKomCQSXCw2tcIWB-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-18" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 12px; line-height: normal; text-align: start; text-wrap: wrap;&quot; class=&quot;p1&quot;&gt;post proxy/password update&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HUhTeKomCQSXCw2tcIWB-17">
+          <mxGeometry x="-0.1778" y="1" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-16" value="aws cloud" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-20" value="dotcn&lt;div&gt;web server&lt;/div&gt;&lt;div&gt;(china)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.05;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HUhTeKomCQSXCw2tcIWB-20" target="HUhTeKomCQSXCw2tcIWB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-24" value="genrate forget url and send email" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HUhTeKomCQSXCw2tcIWB-23">
+          <mxGeometry x="-0.4497" y="2" relative="1" as="geometry">
+            <mxPoint x="38" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HUhTeKomCQSXCw2tcIWB-28" target="HUhTeKomCQSXCw2tcIWB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-28" value="dotcn&lt;div&gt;web server&lt;/div&gt;&lt;div&gt;(china)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.042;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HUhTeKomCQSXCw2tcIWB-10" target="HUhTeKomCQSXCw2tcIWB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUhTeKomCQSXCw2tcIWB-31" value="input new password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HUhTeKomCQSXCw2tcIWB-30">
+          <mxGeometry x="-0.1238" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
